@@ -1,5 +1,4 @@
-let fs = require("fs");
-let input = fs.readFileSync("BOJ11650.txt").toString().split("\n");
+let input = require("fs").readFileSync("./example.txt").toString().split("\n");
 
 const N = input.shift();
 const arr = input.map((el) => el.split(" ").map((num) => parseInt(num)));

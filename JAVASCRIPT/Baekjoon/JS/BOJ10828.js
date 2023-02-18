@@ -1,5 +1,4 @@
-let fs = require("fs");
-let input = fs.readFileSync("BOJ10828-1.txt").toString().split("\n");
+let input = require("fs").readFileSync("./example.txt").toString().split("\n");
 
 const N = input.shift();
 let stack = [];

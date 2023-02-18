@@ -1,5 +1,4 @@
-let fs = require("fs");
-let input = fs.readFileSync("BOJ1978.txt").toString().trim().split("\n");
+let input = require("fs").readFileSync("./example.txt").toString().split("\n");
 
 const testNum = input.shift();
 input = input[0].split(" ").map((item) => +item);
